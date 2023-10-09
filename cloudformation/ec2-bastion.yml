@@ -103,7 +103,7 @@ Resources:
     Properties:
       ImageId: !Ref pOperatingSystem
       IamInstanceProfile: !Ref rec2InstanceProfile
-      Monitoring: false
+      Monitoring: true
       InstanceType: !Ref pInstanceType
       EbsOptimized: true
       SourceDestCheck: true
